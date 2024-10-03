@@ -18,7 +18,7 @@ export default function Start(DOM: HTMLElement) {
         DOM,
         /*html*/`
         <div class='bg-gradient-to-br from-black to-blue-400 min-h-screen'>
-            <header id='navbar'></header>
+            <header id='navbar' class='fixed top-0 left-0 w-full z-[99]'></header>
             <main class='w-full h-screen flex items-center justify-center' id='router'></main>
         </div>
         `
